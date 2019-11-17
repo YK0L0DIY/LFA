@@ -96,7 +96,7 @@ class Node:
     #
     #   BUG!
     #
-    def eval(self):cd
+    def eval(self):
 
         result = ''
         if self.ntype == 'term' and self.value == 'a':
